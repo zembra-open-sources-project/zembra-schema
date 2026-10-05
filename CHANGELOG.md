@@ -1,5 +1,10 @@
 # Changelog
 
+## 未发布
+
+- 新增 Supabase 随机笔记 RPC：在当前 workspace 未删除、未归档的笔记超过 20 条时随机返回 5 条，并附带完整标签路径。
+- 随机接口沿用现有 RLS 和认证用户权限，不修改业务表结构或统一业务 schema version。
+
 ## 0.6.0 - 2026-08-23
 
 - Added Supabase Auth-backed `workspace_members` with the `manager` role.
